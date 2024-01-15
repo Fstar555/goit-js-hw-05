@@ -1,7 +1,7 @@
 `use strict`;
 
 getUsersWithFriend = (users, friendName) => {
-  return;
+  return users.filter((user) => user.friends.includes(friendName));
 };
 
 const allUsers = [
